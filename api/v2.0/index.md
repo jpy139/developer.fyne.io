@@ -25,7 +25,7 @@ A simple application may look like this:
     	w := a.NewWindow("Hello")
 
     	hello := widget.NewLabel("Hello Fyne!")
-    	w.SetContent(widget.NewVBox(
+    	w.SetContent(container.NewVBox(
     		hello,
     		widget.NewButton("Hi!", func() {
     			hello.SetText("Welcome :)")
